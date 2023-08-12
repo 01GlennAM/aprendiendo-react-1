@@ -1,25 +1,23 @@
-import './App.css'
-import Navegacion from './components/Navegacion'
-import Palos from './components/Palos/Palos'
+import "./App.css"
+import Testimonio from "./components/testimonio/Testimonio";
+
+
 
 function App() {
 
   return (  
-    <>
+    <div className='app'>
 
-    <Navegacion></Navegacion>
+      <div className="contenedor-principal">
+      <h1>Testimonio de ingeniros de alguna parte </h1>
+      <Testimonio></Testimonio>
+      </div>
     
-      <div className="parrafo">hola mundo </div>
-      <p>palos</p>
-      <Palos/>
-
-      <div>adasd</div>
-    </>
-
-  )
-  
-
-  
+    </div>
+     
+ 
+  );
+   
 }
 
 export default App
